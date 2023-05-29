@@ -1,0 +1,86 @@
+@import-normalize; /* bring in normalize.css styles */
+
+html[data-topics='pink'] {
+  --background-section: #ffb8d0;
+  --background-card-box: #cc3a6d;
+  --contact-list: #ce4c77;
+}
+
+html[data-topics='dark'] {
+  --background-section: #243a4d;
+  --background-card-box: #334351;
+  --contact-list: #2d465b;
+}
+
+html[data-topics='grin'] {
+  --background-section: #6cc17e;
+  --background-card-box: #3d9751;
+  --contact-list: #69b279;
+}
+
+html[data-topics='violet'] {
+  --background-section: #c498cc;
+  --background-card-box: #b54ec8;
+  --contact-list: #c38ecc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+svg {
+  fill: currentColor;
+}
+
+input {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  border: none;
+  cursor: pointer;
+}
+
+section {
+  margin: 0 auto;
+}
